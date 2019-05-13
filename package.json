@@ -1,5 +1,5 @@
 {
-  "name": "@bnb/card",
+  "name": "@hazam/npx-card",
   "version": "2.0.0",
   "description": "A personal card for Tierney Cyren (@bitandbang)",
   "main": "/bin/card.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/hazam/npx-card.git"
   },
   "homepage": "https://bnb.im",
   "scripts": {
@@ -42,6 +42,6 @@
   },
   "dependencies": {},
   "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
