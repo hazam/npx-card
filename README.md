@@ -1,9 +1,8 @@
-It's me, Tierney!
+Hello, I'm Emanuele. 
+No, I don't speak arabic, it's just the nickname :D
 
 # Usage
-Assuming you have the GitHub registry set up, you can use via npx:
+Assuming you have the NPM registry set up, you can use via npx:
 ```
-npx @bnb/card
+npx @hazam/npx-card
 ```
-
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.

@@ -17,17 +17,15 @@ const options = {
 const data = {
   name: chalk.white('           Emanuele Di Saverio'),
   handle: chalk.yellow('hazam'),
-  work: chalk.white('Principal Software Architect at frog'),
-  tagline: chalk.white('Former Agile Coach, Mobile Developer, and fan of labels'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
+  work: chalk.white('CoE Lead at Vodafone Italia'),
+  tagline: chalk.white('Former Software Architect, Agile Coach, and fan of labels'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('hazam'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~hazam'),
   github: chalk.gray('https://github.com/') + chalk.green('hazam'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('emanueledisaverio'),
   web: chalk.cyan('https://emanueledisaverio.com/'),
-  npx: chalk.red('npx') + ' ' + chalk.white('@hazam/npx-card  (via GitHub Package Registry)'),
+  npx: chalk.red('npx') + ' ' + chalk.white('@hazam/npx-card  (via NPM Registry)'),
   labelWork: chalk.white.bold('       Work:'),
-  labelOpenSource: chalk.white.bold('Open Source:'),
   labelTagline: chalk.white.bold('    Tagline:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
@@ -41,7 +39,6 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const tagline = `${data.labelTagline}  ${data.tagline}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
